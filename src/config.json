@@ -71,4 +71,10 @@
 
   "//": "Only export pin area in LEF (without any connected nets)",
   "MAGIC_WRITE_LEF_PINONLY": 1
+
+  "scl::sky130_fd_sc_lp": {
+    "//": "Override configuration specifics unique to the low-power cells here",
+    "PL_TARGET_DENSITY_PCT": 55,
+    "CLOCK_PERIOD": 10
+  }
 }
