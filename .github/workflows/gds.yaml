@@ -17,6 +17,7 @@ jobs:
         uses: TinyTapeout/tt-gds-action@ttsky26d
         with:
           pdk: sky130A
+          scl: sky130_fd_sc_lp
 
   precheck:
     needs: gds
